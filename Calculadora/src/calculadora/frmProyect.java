@@ -395,7 +395,6 @@ public class frmProyect extends javax.swing.JFrame {
         signo = "/";
         this.btndato.setText("");
        
-         
     }//GEN-LAST:event_btndato13ActionPerformed
 
     private void btndato16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndato16ActionPerformed
