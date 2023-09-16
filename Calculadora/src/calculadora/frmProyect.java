@@ -11,18 +11,26 @@ package calculadora;
  */
 public class frmProyect extends javax.swing.JFrame {
     
+    private static final frmProyect instance = new frmProyect();
+    
+    frmProyect(){
+        initComponents();
+    }
+    
+    public static frmProyect getInstance(){
+        return instance;
+    }
+    
     String dato1 = new String();
     String signo = new String();
     String dato2 = new String();
     String cadena = new String();
-
     /**
      * Creates new form frmProyect
      */
-    public frmProyect() {
-        initComponents();
-    }
 
+    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

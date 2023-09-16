@@ -14,10 +14,12 @@ public class frmOpcion extends javax.swing.JFrame {
     /**
      * Creates new form frmOpcion
      */
-    public frmOpcion() {
+    static public frmOpcion opcion = null;
+    
+    private frmOpcion(){
         initComponents();
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -63,7 +65,6 @@ public class frmOpcion extends javax.swing.JFrame {
         frmProyect calculadora = new frmProyect();
         calculadora.setLocation(500, 100);
         calculadora.setVisible(true);
-        btnPrueba.setEnabled(false);
     }//GEN-LAST:event_btnPruebaActionPerformed
 
     /**
