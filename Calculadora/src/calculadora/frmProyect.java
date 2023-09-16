@@ -13,7 +13,7 @@ public class frmProyect extends javax.swing.JFrame {
     
     private static final frmProyect instance = new frmProyect();
     
-    frmProyect(){
+    private frmProyect(){
         initComponents();
     }
     

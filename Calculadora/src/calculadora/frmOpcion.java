@@ -61,7 +61,7 @@ public class frmOpcion extends javax.swing.JFrame {
 
     private void btnPruebaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPruebaActionPerformed
         // TODO add your handling code here:
-        frmProyect calculadora = new frmProyect();
+        frmProyect calculadora = frmProyect.getInstance();
         calculadora.setLocation(500, 100);
         calculadora.setVisible(true);
         btnPrueba.setEnabled(false);
