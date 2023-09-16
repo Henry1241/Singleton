@@ -14,7 +14,6 @@ public class frmOpcion extends javax.swing.JFrame {
     /**
      * Creates new form frmOpcion
      */
-    static public frmOpcion opcion = null;
     
     private frmOpcion(){
         initComponents();
@@ -45,16 +44,16 @@ public class frmOpcion extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(41, 41, 41)
                 .addComponent(btnPrueba)
-                .addContainerGap(322, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(39, 39, 39)
+                .addGap(25, 25, 25)
                 .addComponent(btnPrueba)
-                .addContainerGap(238, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         pack();
@@ -65,6 +64,7 @@ public class frmOpcion extends javax.swing.JFrame {
         frmProyect calculadora = new frmProyect();
         calculadora.setLocation(500, 100);
         calculadora.setVisible(true);
+        btnPrueba.setEnabled(false);
     }//GEN-LAST:event_btnPruebaActionPerformed
 
     /**
