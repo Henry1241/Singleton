@@ -60,7 +60,7 @@ public class frmOpcion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnPruebaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPruebaActionPerformed
-        // TODO add your handling code here:
+        // Se usa el boton btnPrueba para llamar la calculadora una vez
         frmProyect calculadora = frmProyect.getInstance();
         calculadora.setLocation(500, 100);
         calculadora.setVisible(true);

@@ -13,6 +13,7 @@ public class frmProyect extends javax.swing.JFrame {
     
     private static final frmProyect instance = new frmProyect();
     
+    //Se utiliza un constructor privado para evadir que el cliente use el constructor    
     private frmProyect(){
         initComponents();
     }
