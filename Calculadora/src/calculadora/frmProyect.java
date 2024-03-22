@@ -88,12 +88,6 @@ public class frmProyect extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("Calculadora");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, 150, 122));
-
-        btndato.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btndatoActionPerformed(evt);
-            }
-        });
         jPanel1.add(btndato, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 139, 395, 66));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 210));
