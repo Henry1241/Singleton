@@ -43,7 +43,7 @@ public class frmProyectTest {
     @Test
     public void testCalculo() {
         System.out.println("calculo");
-        String dato1 = "";
+        String dato1 = "Hola";
         String dato2 = "";
         String signo = "";
         String expResult = "";
