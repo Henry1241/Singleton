@@ -44,7 +44,7 @@ public class frmProyectTest {
     public void testCalculo() {
         System.out.println("calculo");
         String dato1 = "Hola";
-        String dato2 = "";
+        String dato2 = "sism";
         String signo = "";
         String expResult = "";
         String result = frmProyect.calculo(dato1, dato2, signo);

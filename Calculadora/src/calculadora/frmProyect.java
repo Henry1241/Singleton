@@ -26,6 +26,7 @@ public class frmProyect extends javax.swing.JFrame {
     String signo = new String();
     String dato2 = new String();
     String cadena = new String();
+    String test = new String();
     /**
      * Creates new form frmProyect
      */
